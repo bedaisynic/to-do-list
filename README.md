@@ -3,7 +3,7 @@
 ## MJML
 MJML is a framework which helps to create responsive emails. It has the similar syntax like HTML. To start working on editing an email, you can download the [official desktop app](https://mjmlio.github.io/mjml-app/) to modify your email with live rendering or install [mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) in your code editor if you use Visual Studio.
 
-## How to use the email template
+## How to use the HeadSpin standard email template
 
 This basic template is created by MJML and designed for standard email of HeadSpin. It consists of the head, header, body, and footer. To create your email, you can simply link the head, header, and footer into your template and replace the body with your content.
 
@@ -23,7 +23,7 @@ The template can be used like this:
    <mj-wrapper>
     <mj-include path="./_header.mjml" />
 
-    /* Your main content goes there */
+    /* Your main content goes there 
 
      <mj-section>
        <mj-column>
@@ -31,7 +31,10 @@ The template can be used like this:
           ...
          </mj-text>
        </mj-column>
-     </mj-section>   
+     </mj-section>
+    
+    */
+    
    </mj-wrapper>
    <mj-include path="./_footer_manual.mjml" />
  </mj-body>
