@@ -39,7 +39,7 @@ The template can be used like this:
 
 ## How to generate HTML file
 
-After finishing creating the email, make sure to generate an HTML file called the same name as MJML’s and put it in the same folder. You can either generate it by the desktop app or export it from your IDE.
+After finishing creating the email, make sure to generate an HTML file, and use the same name as MJML’s and put it in the same folder. You can either generate it by the desktop app or export it from your IDE.
 
 For example:
 ```html
