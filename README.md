@@ -1,7 +1,7 @@
 # HeadSpin Responsive Email Template
 
 ## MJML
-MJML is the framework which helps to create responsive emails. It has the similar syntax like HTML. To start working on creating an email, you can download the [official desktop app](https://mjmlio.github.io/mjml-app/) to edit your email with live rendering. Or install [mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) in your code editor.
+MJML is a framework which helps to create responsive emails. It has the similar syntax like HTML. To start working on creating an email, you can download the [official desktop app](https://mjmlio.github.io/mjml-app/) to edit your email with live rendering or install [mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) in your code editor.
 
 ## How to use the email template
 
