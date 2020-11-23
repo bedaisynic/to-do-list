@@ -44,7 +44,7 @@ Once your email is created by MJML, make sure to manually generate an HTML file 
 
 For example:
 
-If you edit your file `subscription_paid.mjml` in MJML editor, you can click `Export to HTML file` on the right top corner to make the file.
+If you edit your file `subscription_paid.mjml` in MJML editor, you can click `Export to HTML file` button on the top right corner to make the file.
 
 If you modify your email `subscription_paid.mjml` in Visual Studio, then you can type `Command Shift P` to choose `Export HTML` to produce the file.
 
