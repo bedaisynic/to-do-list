@@ -5,7 +5,7 @@ MJML is the framework which helps to create responsive emails. It has the simila
 
 ## How to use the email template
 
-This basic template is designed for HeadSpin standard email. It consists of the head, header, body and footer. To create your email, you can just simply link the head, header and footer into your template, and replace the body by your content.
+This basic template is designed for HeadSpin standard email. It consists of the head, header, body, and footer. To create your email, you can simply link the head, header, and footer into your template and replace the body with your content.
 
 The template can be used like this:
 
@@ -39,7 +39,7 @@ The template can be used like this:
 
 ## How to generate HTML file
 
-After finished on creating the email, make sure that to generate a HTML file which called a same name as MJML’s, and put it in the same folder. You can either generate it by the desktop app or export from your IDE.
+After finishing creating the email, make sure to generate an HTML file called the same name as MJML’s and put it in the same folder. You can either generate it by the desktop app or export it from your IDE.
 
 For example:
 ```html
