@@ -1,11 +1,11 @@
 # HeadSpin Responsive Email Template
 
 ## MJML
-MJML is a framework which helps to create responsive emails. It has the similar syntax like HTML. To start working on editing an email, you can download the [official desktop app](https://mjmlio.github.io/mjml-app/) to modify your email with live rendering or install [mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) in your code editor if you use Visual Studio.
+MJML is a framework which helps to create responsive emails. It has similar syntax like HTML. To start working on editing an email, you can download the [official desktop app](https://mjmlio.github.io/mjml-app/) to modify your email with live rendering or install [mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) in your code editor if you use Visual Studio.
 
 ## How to use HeadSpin standard email template
 
-This basic template is created by MJML and designed for standard email of HeadSpin. It consists of the head, header, body, and footer. To create your email, you can simply link the head, header, and footer into your template and replace the body with your content.
+This basic template is written in MJML and designed for a standard email template for HeadSpin. It consists of four main components : head, header, body, and footer. To create your custom email, you can reuse the head, header, and footer from this template and replace the body with your own content.
 
 The template can be used like this:
 
@@ -43,15 +43,15 @@ The template can be used like this:
 
 ## How to generate HTML file
 
-Once your email is created by MJML, make sure to manually generate an HTML file with the same name as MJML’s, and put it in the same folder. You can either generate it by the desktop app or export it from your IDE.
+Once your email in MJML is created, make sure to generate a corrsponding HTML file with the same file name, and put it under the same directory. You can either generate it by the desktop app or export it from your IDE.
 
 For example:
 
-If you edit `subscription_paid.mjml` file in MJML editor, you can click `Export to HTML file` button on the top right corner to make the file.
+If you want to generate `subscription_paid.html` in MJML editor(desktop app), you can click `Export to HTML file` button on the top right corner to generate the file.
 
-If you modify `subscription_paid.mjml` in Visual Studio, then you can type `Command Shift P` to choose `Export HTML` to produce the file.
+If you want to generate `subscription_paid.html` in Visual Studio, then you can type `Command Shift P` to choose `Export HTML` to export the file.
 
-The structure of the folder will be like this:
+In this example, the folder will look something similar to this:
 
 ```html
 _head.mjml
